@@ -14,7 +14,7 @@ body._lock {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 	margin-bottom: 2rem;
 }
 
@@ -63,7 +63,7 @@ label {
 }
 
 .item__label {
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 .item__icon {
@@ -71,8 +71,8 @@ label {
 	transform: rotate(45deg);
 	background: url('../assets/icon.svg') 0 0/100% no-repeat;
 	appearance: none;
-	height: 2rem;
-	width: 2rem;
+	height: 3rem;
+	width: 3rem;
 }
 
 .item__icon:checked {
@@ -110,13 +110,13 @@ label {
 	transform: rotate(0deg);
 }
 
-@media (min-width:1000px) and (max-width:1440px) {
+@media (min-width:1051px) and (max-width:1440px) {
 	.wrapper {
 		max-width: 50vw;
 	}
 
 	h1 {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 
 	.accordion {
@@ -124,22 +124,22 @@ label {
 	}
 
 	.item__label {
-		font-size: 1.5rem;
+		font-size: 2.1rem;
 	}
 
 	.item__icon {
-		width: 1.5rem;
-		height: 1.5rem;
+		width: 2.1rem;
+		height: 2.1rem;
 	}
 }
 
-@media (min-width:401px) and (max-width:999px) {
+@media (min-width:501px) and (max-width:1050px) {
 	.wrapper {
 		max-width: 70vw;
 	}
 
 	h1 {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 
 	.accordion {
@@ -147,12 +147,12 @@ label {
 	}
 
 	.item__label {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
 	.item__icon {
-		width: 1.5rem;
-		height: 1.5rem;
+		width: 2rem;
+		height: 2rem;
 	}
 
 	.item__body img {
@@ -166,7 +166,7 @@ label {
 	}
 }
 
-@media (min-width:320px) and (max-width:400px) {
+@media (min-width:320px) and (max-width:500px) {
 
 	.wrapper {
 		max-width: 100vw;

@@ -33,7 +33,7 @@ h1 {
 }
 
 .accordion:hover .item__icon {
-	opacity: 1;
+	/* opacity: 1; */
 }
 
 .accordion:hover {
@@ -60,7 +60,7 @@ h1 {
 }
 
 .item__icon {
-	opacity: 0;
+	/* opacity: 0; */
 	transform: rotate(45deg);
 	background: url('../assets/icon.svg') 0 0/100% no-repeat;
 	appearance: none;
@@ -133,6 +133,14 @@ h1 {
 	.item__icon,
 	label {
 		cursor: pointer;
+	}
+
+	.item__icon {
+		opacity: 0;
+	}
+
+	.accordion:hover .item__icon {
+		opacity: 1;
 	}
 }
 

@@ -1,1 +1,1 @@
-# https://rasimaru.github.io/cssBayan/
+# https://rasimaru.github.io/cssBayan/cssBayan/index.html

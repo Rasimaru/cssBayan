@@ -220,7 +220,7 @@ h1 {
 	.item__header:hover {
 		background: #f0f0f0;
 		color: #eea70e;
-		border-bottom: 0.125rem solid #000000;
+		/* border-bottom: 0.125rem solid #000000; */
 	}
 
 	.item:hover .item__icon {
@@ -230,5 +230,10 @@ h1 {
 	.item:hover .item__body,
 	.item label .item__header:has(input:checked)~.item__body {
 		height: 20rem;
+	}
+
+	.item:hover {
+		color: #eea70e;
+		border-bottom: 0.125rem solid #cfcfcf;
 	}
 }

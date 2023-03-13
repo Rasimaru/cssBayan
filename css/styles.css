@@ -96,6 +96,7 @@ h1 {
 
 /* .item:hover, */
 .item:has(input:checked) {
+	color: #eea70e;
 	border-bottom: 0.125rem solid #cfcfcf;
 }
 
